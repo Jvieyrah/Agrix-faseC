@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="9.3">
+<file name="/home/joao/Documents/trybe/java/java-001-projeto-final-agrix-fase-c/src/main/java/com/betrybe/agrix/ebytr/staff/security/JwtFilter.java">
+<error line="18" column="1" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="29" column="3" severity="warning" message="&apos;METHOD_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="30" severity="warning" message="Line is longer than 100 characters (found 155)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="46" severity="warning" message="Line is longer than 100 characters (found 101)." source="com.puppycrawl.tools.checkstyle.checks.sizes.LineLengthCheck"/>
+<error line="48" column="6" severity="warning" message="Comment has incorrect indentation level 5, expected is 6, indentation should be the same level as line 40." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="/home/joao/Documents/trybe/java/java-001-projeto-final-agrix-fase-c/src/main/java/com/betrybe/agrix/ebytr/staff/service/TokenService.java">
+<error line="10" column="1" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="18" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="30" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+</file>
+<file name="/home/joao/Documents/trybe/java/java-001-projeto-final-agrix-fase-c/src/main/java/com/betrybe/agrix/ebytr/staff/advice/SecurityConfig.java">
+<error line="8" column="1" severity="warning" message="Import statement for &apos;org.springframework.boot.autoconfigure.security.servlet.PathRequest.toH2Console&apos; is in the wrong order. Should be in the &apos;STATIC&apos; group, expecting not assigned imports on this line." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" column="1" severity="warning" message="Extra separation in import group before &apos;org.springframework.beans.factory.annotation.Autowired&apos;" source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="10" column="1" severity="warning" message="Wrong lexicographical order for &apos;org.springframework.beans.factory.annotation.Autowired&apos; import. Should be before &apos;org.springframework.security.config.annotation.web.configuration.EnableWebSecurity&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="11" column="1" severity="warning" message="Wrong lexicographical order for &apos;org.springframework.context.annotation.Bean&apos; import. Should be before &apos;org.springframework.security.config.annotation.web.configuration.EnableWebSecurity&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="12" column="1" severity="warning" message="Wrong lexicographical order for &apos;org.springframework.http.HttpMethod&apos; import. Should be before &apos;org.springframework.security.config.annotation.web.configuration.EnableWebSecurity&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="13" column="1" severity="warning" message="Wrong lexicographical order for &apos;org.springframework.security.authentication.AuthenticationManager&apos; import. Should be before &apos;org.springframework.security.config.annotation.web.configuration.EnableWebSecurity&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="14" column="1" severity="warning" message="Wrong lexicographical order for &apos;org.springframework.security.config.annotation.authentication.configuration.AuthenticationConfiguration&apos; import. Should be before &apos;org.springframework.security.config.annotation.web.configuration.EnableWebSecurity&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="15" column="1" severity="warning" message="Wrong lexicographical order for &apos;org.springframework.security.config.annotation.method.configuration.EnableMethodSecurity&apos; import. Should be before &apos;org.springframework.security.config.annotation.web.configuration.EnableWebSecurity&apos;." source="com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck"/>
+<error line="23" column="1" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="35" column="3" severity="warning" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocMethodCheck"/>
+<error line="43" column="31" severity="warning" message="&apos;(&apos; is followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="61" column="43" severity="warning" message="WhitespaceAround: &apos;{&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+</file>
+</checkstyle>
